@@ -49,6 +49,23 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
+.nav-link:hover,
+.nav-link:focus,
+.tel-mail-link:hover,
+.tel-mail-link:focus,
+.address-link:hover,
+.address-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.filter-projects-btn:hover,
+.filter-projects-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+}
 /* ========= END COMPONENTS ========= */
 
 /* ========= START LOGO ========= */
@@ -80,13 +97,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
-}
-
-.nav-link:hover,
-.nav-link:focus,
-.tel-mail-link:hover,
-.tel-mail-link:focus {
-    color: var(--accent-color);
 }
 /* ========= END HEADER ========= */
 
@@ -158,8 +168,39 @@ body {
 }
 /* ========= END TEAM ========= */
 
+/* ========= START PROJECTS ========= */
+.filter-projects-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+    background: #f5f4fa;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.title-projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+/* ========= END PROJECTS ========= */
+
 /* ========= START FOOTER ========= */
-.footer {
+.footer-page {
     background-color: #2f303a;
 }
 
