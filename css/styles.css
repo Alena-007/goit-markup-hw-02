@@ -1,0 +1,183 @@
+/* main font-family: Raleway 700*/
+/* font-family: Roboto 400 500 700 900*/
+
+/* main color black: #212121; */
+/* color white: #FFFFFF; */
+/* second color grey: #757575; */
+/* accent color blue: #2196F3; */
+
+/* first bg-color white: #FFFFFF; */
+/* second bg-color grey: #F5F4FA; */
+/* third bg-color dark: #2F303A; */
+
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-text-color-theme-light: #212121;
+    --secondary-text-color-theme-light: #757575;
+    --primary-text-color-theme-dark: #ffffff;
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    background-color: #ffffff;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ========= START COMPONENTS ========= */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+/* ========= END COMPONENTS ========= */
+
+/* ========= START LOGO ========= */
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-footer {
+    color: var(--primary-text-color-theme-dark);
+}
+/* ========= END LOGO ========= */
+
+/* ========= START HEADER ========= */
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.tel-mail-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.tel-mail-link:hover,
+.tel-mail-link:focus {
+    color: var(--accent-color);
+}
+/* ========= END HEADER ========= */
+
+/* ========= START HERO ========= */
+.hero {
+    background-color: #2f303a;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.hero-btn {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-dark);
+    cursor: pointer;
+}
+/* ========= END HERO ========= */
+
+/* ========= START BENEFITS ========= */
+.benefits-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-light);
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+/* ========= END BENEFITS ========= */
+
+/* ========= START TEAM ========= */
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+/* ========= END TEAM ========= */
+
+/* ========= START FOOTER ========= */
+.footer {
+    background-color: #2f303a;
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ========= END FOOTER ========= */
